@@ -6,7 +6,8 @@ $(document).ready(function(e){
 	
 	
     
-	audio=window.plugins.LowLatencAudio;audio.preloadFX('mario', 'audio/mario.mp3',function(msg){},function(msg){alert('error: '+msg);});
+	audio=window.plugins.LowLatencyAudio;
+	audio.preloadFX('mario', 'audio/mario.mp3',function(msg){},function(msg){alert('error: '+msg);});
 	
 	
 	
